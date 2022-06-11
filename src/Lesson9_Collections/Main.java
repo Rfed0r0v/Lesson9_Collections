@@ -23,12 +23,13 @@ public class Main {
                 if (word.toLowerCase().startsWith(input))   //Search for the given word
                 {
                     count++;    //If Present increase the count by one
+                    System.out.println(word);
                 }
             }
         }
         if (count != 0)  //Check for count not equal to zero
         {
-            System.out.println("The word " + input + " is present for " + count + " Times in the file");
+            System.out.println("The word " + input + " is present for " + count + " times in the file");
         } else {
             System.out.println("The word " + input + " is not present in the file");
         }
@@ -55,6 +56,7 @@ public class Main {
                 if (word.toLowerCase().startsWith(input))   //Search for the given word
                 {
                     count++;    //If Present increase the count by one
+                    System.out.println(word);
                 }
             }
         }
